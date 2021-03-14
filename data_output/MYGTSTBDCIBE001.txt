@@ -1,0 +1,10 @@
+interface TenGigE0/1/0/34
+ description ***john_testing for MYGTSTBDCIBE001 Te0/1/0/34***
+!
+!
+snmp-server location ***john_snmp11***
+commit
+exit
+terminal length 0
+show interface desc
+show run snmp-server | i location
