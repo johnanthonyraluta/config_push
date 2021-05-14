@@ -45,15 +45,17 @@ def generate_config(data):
     return output
 
 def tnt_connect(host):
-    tnt_session = ConnectHandler(
-      device_type = "cisco_xr",
-      host=host,
-      username= "cisco",
-      password= "T&T!@bd!@n-C!sc0",
-    )
-    tnt_session.logfile = open("tnt_connect.log", "w+b")
-    return tnt_session
-
+    try:
+        tnt_session = ConnectHandler(
+          device_type = "cisco_xr",
+          host=host,
+          username= "cisco",
+          password= "T&T!@bd!@n-C!sc0",
+        )
+        tnt_session.logfile = open("tnt_connect.log", "w+b")
+        return tnt_session
+    except:
+        return None
 def tnt_disconnect(tnt_session):
     tnt_session.disconnect()
 

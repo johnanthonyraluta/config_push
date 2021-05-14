@@ -1,0 +1,159 @@
+
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001#configure terminal
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config)#interface Hu0/0/2/3
+
+description FC_BLA00N55CICU001 0/0/2/3:MRVPXBPZCINC301 0/0/0/12>>MRVPXBPZCINC303 SLOT3 EDFA  LINE RX TX>>MRVI061ORI007-036 20-35>>ORID635ORI F31/31 >>BLAI057ORI 27- 28>>BLAPXBLACINC303 SLOT2 EDFA  LINE RX TX>>BLAI057ORI F21- F22>>BLAPXBLACINC301 0/0/0/12
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#description FC_BLA00N55CICU001 0/0/2/3:MRVPXBPZCINC301 0/0/0/12>>MRVPXBPZCINC303 SLOT3 EDFA  LINE RX TX>>MRVI061ORI007-036 20-35>>ORID635ORI F31/31 >>BLAI057ORI 27- 28>>BLAPXBLACINC303 SLOT2 EDFA  LINE RX TX>>BLAI057ORI F21- F22>>BLAPXBLACINC301 0/0/0/12
+
+!
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#interface Hu0/1/2/3
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#description FC_BLA00N55CICU001 0/1/2/3:MRVPXBPZCINC302 0/0/0/12>>BPZD611BPZ F74- F75>>BLAD634BLA F64 -F65>>BLAPXBLACINC302 0/0/0/12
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#interface Gi0/0/0/8
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#description DP_MRVPXBPZCINC301 Mg0/RP0/CPU0/0
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#interface Gi0/0/0/9
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#description DP_MRVPXBPZCINC302 Mg0/RP0/CPU0/0
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#interface Gi0/0/0/10
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#description DP_MRVPXBPZCINC303 Mg0/RP0/CPU0/0
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#!
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config-if)#snmp-server location FIX-AN- Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config)#commit
+
+Sun Apr 25 20:32:22.789 PHT
+RP/0/RP0/CPU0:MRVPXBPZCICU001(config)#exit
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001#terminal length 0
+
+Sun Apr 25 20:32:23.842 PHT
+RP/0/RP0/CPU0:MRVPXBPZCICU001#show interface desc
+
+Sun Apr 25 20:32:23.990 PHT
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+BE501              up          up          **Connected to BLA00N55CICU001 Bundle-Ether501**
+Lo0                up          up          default loopback
+Lo1                up          up          network management loopback
+Nu0                up          up          
+Fo0/0/0/12         admin-down  admin-down  
+Fo0/0/0/13         admin-down  admin-down  
+Gi0/0/0/8          up          up          DP_MRVPXBPZCINC301 Mg0/RP0/CPU0/0
+Gi0/0/0/9          up          up          DP_MRVPXBPZCINC302 Mg0/RP0/CPU0/0
+Gi0/0/0/10         up          up          DP_MRVPXBPZCINC303 Mg0/RP0/CPU0/0
+Te0/0/0/0          admin-down  admin-down  
+Te0/0/0/1          admin-down  admin-down  
+Te0/0/0/2          admin-down  admin-down  
+Te0/0/0/3          admin-down  admin-down  
+Te0/0/0/4          admin-down  admin-down  
+Te0/0/0/5          admin-down  admin-down  
+Te0/0/0/6          admin-down  admin-down  
+Te0/0/0/7          admin-down  admin-down  
+Te0/0/0/11         admin-down  admin-down  
+Te0/0/1/0          admin-down  admin-down  
+Te0/0/1/1          admin-down  admin-down  
+Te0/0/1/2          admin-down  admin-down  
+Te0/0/1/3          admin-down  admin-down  
+Te0/0/1/4          admin-down  admin-down  
+Te0/0/1/5          admin-down  admin-down  
+Te0/0/1/6          admin-down  admin-down  
+Te0/0/1/7          admin-down  admin-down  
+Te0/0/1/8          admin-down  admin-down  
+Te0/0/1/9          admin-down  admin-down  
+Te0/0/1/10         admin-down  admin-down  
+Te0/0/1/11         admin-down  admin-down  
+Hu0/0/2/0          admin-down  admin-down  
+Hu0/0/2/1          admin-down  admin-down  
+Hu0/0/2/2          admin-down  admin-down  
+Hu0/0/2/3          up          up          FC_BLA00N55CICU001 0/0/2/3:MRVPXBPZCINC301 0/0/0/12>>MRVPXBPZCINC303 SLOT3 EDFA  LINE RX TX>>MRVI061ORI007-036 20-35>>ORID635ORI F31/31 >>BLAI057ORI 27- 28>>BLAPXBLACINC303 SLOT2 EDFA  LINE RX TX>>BLAI057ORI F21- F22>>BLAPXBLACINC301 0/0/0/12
+Fo0/1/0/12         admin-down  admin-down  
+Fo0/1/0/13         admin-down  admin-down  
+Te0/1/0/0          admin-down  admin-down  
+Te0/1/0/1          admin-down  admin-down  
+Te0/1/0/2          admin-down  admin-down  
+Te0/1/0/3          admin-down  admin-down  
+Te0/1/0/4          admin-down  admin-down  
+Te0/1/0/5          admin-down  admin-down  
+Te0/1/0/6          admin-down  admin-down  
+Te0/1/0/7          admin-down  admin-down  
+Te0/1/0/8          admin-down  admin-down  
+Te0/1/0/9          admin-down  admin-down  
+Te0/1/0/10         admin-down  admin-down  
+Te0/1/0/11         admin-down  admin-down  
+Te0/1/1/0          admin-down  admin-down  
+Te0/1/1/1          admin-down  admin-down  
+Te0/1/1/2          admin-down  admin-down  
+Te0/1/1/3          admin-down  admin-down  
+Te0/1/1/4          admin-down  admin-down  
+Te0/1/1/5          admin-down  admin-down  
+Te0/1/1/6          admin-down  admin-down  
+Te0/1/1/7          admin-down  admin-down  
+Te0/1/1/8          admin-down  admin-down  
+Te0/1/1/9          admin-down  admin-down  
+Te0/1/1/10         admin-down  admin-down  
+Te0/1/1/11         admin-down  admin-down  
+Hu0/1/2/0          admin-down  admin-down  
+Hu0/1/2/1          admin-down  admin-down  
+Hu0/1/2/2          admin-down  admin-down  
+Hu0/1/2/3          up          up          FC_BLA00N55CICU001 0/1/2/3:MRVPXBPZCINC302 0/0/0/12>>BPZD611BPZ F74- F75>>BLAD634BLA F64 -F65>>BLAPXBLACINC302 0/0/0/12
+Mg0/RP0/CPU0/0     admin-down  admin-down  
+PT0/RP0/CPU0/0     admin-down  admin-down  
+Mg0/RP1/CPU0/0     admin-down  admin-down  
+PT0/RP1/CPU0/0     admin-down  admin-down  
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001#show run snmp-server | i location
+
+Sun Apr 25 20:32:24.246 PHT
+snmp-server location FIX-AN- Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+RP/0/RP0/CPU0:MRVPXBPZCICU001#show config commit changes last 1
+
+Sun Apr 25 20:32:24.597 PHT
+Building configuration...
+!! IOS XR Configuration 7.2.1
+snmp-server location FIX-AN- Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+interface GigabitEthernet0/0/0/8
+ description DP_MRVPXBPZCINC301 Mg0/RP0/CPU0/0
+!
+interface GigabitEthernet0/0/0/9
+ description DP_MRVPXBPZCINC302 Mg0/RP0/CPU0/0
+!
+interface GigabitEthernet0/0/0/10
+ description DP_MRVPXBPZCINC303 Mg0/RP0/CPU0/0
+!
+interface HundredGigE0/0/2/3
+ description FC_BLA00N55CICU001 0/0/2/3:MRVPXBPZCINC301 0/0/0/12>>MRVPXBPZCINC303 SLOT3 EDFA  LINE RX TX>>MRVI061ORI007-036 20-35>>ORID635ORI F31/31 >>BLAI057ORI 27- 28>>BLAPXBLACINC303 SLOT2 EDFA  LINE RX TX>>BLAI057ORI F21- F22>>BLAPXBLACINC301 0/0/0/12
+!
+interface HundredGigE0/1/2/3
+ description FC_BLA00N55CICU001 0/1/2/3:MRVPXBPZCINC302 0/0/0/12>>BPZD611BPZ F74- F75>>BLAD634BLA F64 -F65>>BLAPXBLACINC302 0/0/0/12
+!
+end
+
+RP/0/RP0/CPU0:MRVPXBPZCICU001#

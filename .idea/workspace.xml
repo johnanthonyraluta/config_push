@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b133846-2c92-44fc-9ea9-69b6b224ba31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/data_input/MYGTSTBDCIBE001.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_input/MYGTSTBDCIBE002.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_input/MYGTSTBDCIBE003.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_input/Sample_Nodes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_input/Sample_Nodes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_input/nodes_for_config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_input/nodes_inventory.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_input/nodes_inventory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE004.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE006.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE007.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE008.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_output/MYGTSTBDCIBE009.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/spof_checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/spof_checks.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pgihukPO4kfB19LhPO81Cfdfkh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/nautobot" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b133846-2c92-44fc-9ea9-69b6b224ba31" name="Default Changelist" comment="" />
+      <created>1615611257186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615611257186</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>

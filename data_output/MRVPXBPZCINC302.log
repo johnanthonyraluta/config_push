@@ -1,0 +1,39 @@
+
+
+RP/0/RP0/CPU0:MRVPXBPZCINC302#configure terminal
+
+Sun Apr 25 12:32:54.005 UTC
+RP/0/RP0/CPU0:MRVPXBPZCINC302(config)#snmp-server location FIX-NCS1002-Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+
+RP/0/RP0/CPU0:MRVPXBPZCINC302(config)#commit
+
+Sun Apr 25 12:32:56.058 UTC
+RP/0/RP0/CPU0:MRVPXBPZCINC302(config)#exit
+
+RP/0/RP0/CPU0:MRVPXBPZCINC302#terminal length 0
+
+Sun Apr 25 12:32:57.313 UTC
+RP/0/RP0/CPU0:MRVPXBPZCINC302#show interface desc
+
+Sun Apr 25 12:32:57.528 UTC
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Nu0                up          up          
+Mg0/RP0/CPU0/0     up          up          ***Connected to PLDT Bepza-AN1 MRVPXBPZCICU001 0/0/0/9>****
+Mg0/RP0/CPU0/1     admin-down  admin-down  
+Mg0/RP0/CPU0/2     admin-down  admin-down  
+
+RP/0/RP0/CPU0:MRVPXBPZCINC302#show run snmp-server | i location
+
+Sun Apr 25 12:32:57.808 UTC
+snmp-server location FIX-NCS1002-Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+RP/0/RP0/CPU0:MRVPXBPZCINC302#show config commit changes last 1
+
+Sun Apr 25 12:32:59.356 UTC
+Building configuration...
+!! IOS XR Configuration 7.1.1
+snmp-server location FIX-NCS1002-Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+end
+
+RP/0/RP0/CPU0:MRVPXBPZCINC302#

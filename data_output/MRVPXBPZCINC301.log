@@ -1,0 +1,38 @@
+
+
+RP/0/RP0/CPU0:MRVPXBPZCINC301#configure terminal
+
+Sun Apr 25 12:32:35.581 UTC
+RP/0/RP0/CPU0:MRVPXBPZCINC301(config)#snmp-server location FIX-NCS1002-Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+
+RP/0/RP0/CPU0:MRVPXBPZCINC301(config)#commit
+
+exit
+Sun Apr 25 12:32:37.676 UTC
+RP/0/RP0/CPU0:MRVPXBPZCINC301(config)#exit
+
+terminal length 0
+RP/0/RP0/CPU0:MRVPXBPZCINC301#terminal length 0
+
+show interface desc
+Sun Apr 25 12:32:39.323 UTC
+RP/0/RP0/CPU0:MRVPXBPZCINC301#show interface desc
+
+show run snmp-server | i location
+Sun Apr 25 12:32:39.534 UTC
+
+Interface          Status      Protocol    Description
+--------------------------------------------------------------------------------
+Nu0                up          up          
+Mg0/RP0/CPU0/0     up          up          ***Connected to PLDT Bepza-AN1 MRVPXBPZCICU001 0/0/0/8>****
+Mg0/RP0/CPU0/1     admin-down  admin-down  
+Mg0/RP0/CPU0/2     admin-down  admin-down  
+
+RP/0/RP0/CPU0:MRVPXBPZCINC301#show run snmp-server | i location
+
+show config commit changes last 1
+Sun Apr 25 12:32:39.806 UTC
+snmp-server location FIX-NCS1002-Equipment Room/Mariveles/Bataan (120.497391;14.440297)
+RP/0/RP0/CPU0:MRVPXBPZCINC301#show config commit changes last 1
+
+

@@ -29,19 +29,19 @@ def deploy_config(tnt_session,cfg_list):
     return deploy_output
 
 def main():
-    target_nodes = parse_to_list(file_path+"data_input/nodes_for_config.txt")
+    target_nodes = parse_to_list(file_path+"data_input/nodes_for_config_isat.txt")
     for host in host_list:
         for nodes in target_nodes:
-            if path.exists(file_path + "data_input/" + nodes + ".cfg") == True:
+            if path.exists(file_path + "data_output/" + nodes + ".cfg") == True:
                 if nodes == host.split()[0]:
                     tnt_session = connect_device(host.split()[1])
                     status = check_host(tnt_session,nodes)
                     if status == True:
-                        cfg_list = parse_to_list(file_path+"data_input/"+nodes+".cfg")
+                        cfg_list = parse_to_list(file_path+"data_output/"+nodes+".cfg")
                         print('Deploying configuration on ' + nodes)
                         config_session= deploy_config(tnt_session,cfg_list)
                         print(config_session)
-                        with open(file_path+"data_output/"+nodes+".log","w") as writer:
+                        with open(file_path+"data_output/logs/"+nodes+".log","w") as writer:
                            #for lines in config_session:
                             writer.writelines(config_session + '\n')
                         print('Config done on '+ nodes)
